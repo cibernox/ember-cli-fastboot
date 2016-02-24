@@ -20,7 +20,8 @@ module.exports = {
   includedCommands: function() {
     return {
       'fastboot':       require('./lib/commands/fastboot'),
-      'fastboot:build': require('./lib/commands/fastboot-build')
+      'fastboot:build': require('./lib/commands/fastboot-build'),
+      'fastboot:test': require('./lib/commands/fastboot-test')
     };
   },
 
